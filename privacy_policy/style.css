@@ -191,17 +191,8 @@ body{
 
     margin-bottom:20px;
 
-    transition:.2s ease;
-
 }
 
-.card:hover{
-
-    transform:translateY(-2px);
-
-    box-shadow:var(--shadow);
-
-}
 
 .card h2{
 
