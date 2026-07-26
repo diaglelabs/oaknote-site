@@ -465,3 +465,34 @@ footer{
 }
 
 }
+
+.contact a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:var(--primary);
+
+    padding:14px 28px;
+
+    border-radius:999px;
+
+    font-weight:700;
+
+    transition:.2s;
+
+    overflow:hidden;
+}
+
+.contact a:focus-visible{
+
+    outline:3px solid rgba(30,115,255,.25);
+
+    outline-offset:4px;
+
+    border-radius:999px;
+
+}
