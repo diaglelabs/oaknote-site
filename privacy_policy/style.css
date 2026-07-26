@@ -27,6 +27,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
+    -webkit-tap-highlight-color: transparent;
 }
 
 html{
@@ -163,16 +165,6 @@ body{
 
     color:var(--title);
 
-    transition:.2s ease;
-
-}
-
-.summary-item:hover{
-
-    transform:translateY(-2px);
-
-    box-shadow:var(--shadow);
-
 }
 
 /* ==========================================
@@ -191,8 +183,9 @@ body{
 
     margin-bottom:20px;
 
-}
+    transition:.2s ease;
 
+}
 
 .card h2{
 
@@ -476,6 +469,15 @@ footer{
     transition:.2s;
 
     overflow:hidden;
+
+    outline:none;
+
+    -webkit-tap-highlight-color: transparent;
+
+    user-select:none;
+
+    -webkit-user-select:none;
+
 }
 
 .contact a:focus-visible{
